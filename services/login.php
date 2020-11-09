@@ -23,8 +23,8 @@
                     <a href="#"><li>Baixar</li></a>
                     <a href="#"><li>Criar</li></a>
                     |
-                    <a href="#"><li>Inscrever-se</li></a>
-                    <a href="#"><li>Login</li></a>
+                    <a href="cadastro.php"><li>Inscrever-se</li></a>
+                    <!-- <a href="#"><li>Login</li></a> -->
                 </ul>
             </nav>
         </header>

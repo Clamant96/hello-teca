@@ -30,8 +30,8 @@ if(isset($_SESSION['idUser']) && !empty($_SESSION['idUser'])):
                     <a href="#"><li>Baixar</li></a>
                     <a href="#"><li>Criar</li></a>
                     |
-                    <a href="#"><li>Inscrever-se</li></a>
-                    <a href="#"><li>Login</li></a>
+                    <a href="#"><li><?php echo $nomeUser; ?></li></a>
+                    <a href="services/logout.php"><li>Logout</li></a>
                 </ul>
             </nav>
         </header>
@@ -79,7 +79,7 @@ if(isset($_SESSION['idUser']) && !empty($_SESSION['idUser'])):
                 <div id="produto">
                     <img src="img/Repetição de grade 8.png">
                     <div id="buttonProduto">
-                        <a href="#">
+                        <a href="produto.php">
                             <button>Ver</button>
                         </a>
                     </div>
@@ -87,7 +87,7 @@ if(isset($_SESSION['idUser']) && !empty($_SESSION['idUser'])):
                 <div id="produto">
                     <img src="img/Repetição de grade 7.png">
                     <div id="buttonProduto">
-                        <a href="#">
+                        <a href="produto.php">
                             <button>Ver</button>
                         </a>
                     </div>
@@ -95,7 +95,7 @@ if(isset($_SESSION['idUser']) && !empty($_SESSION['idUser'])):
                 <div id="produto">
                     <img src="img/Repetição de grade 6.png">
                     <div id="buttonProduto">
-                        <a href="#">
+                        <a href="produto.php">
                             <button>Ver</button>
                         </a>
                     </div>
@@ -103,7 +103,7 @@ if(isset($_SESSION['idUser']) && !empty($_SESSION['idUser'])):
                 <div id="produto">
                     <img src="img/Repetição de grade 9.png">
                     <div id="buttonProduto">
-                        <a href="#">
+                        <a href="produto.php">
                             <button>Ver</button>
                         </a>
                     </div>

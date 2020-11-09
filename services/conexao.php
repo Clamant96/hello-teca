@@ -7,10 +7,15 @@ $user = "3486769_cadastro";
 $pass = "";
 $bancoDeDados = "3486769_cadastro";*/
 
+/*$localhost = "localhost";
+$user = "root";
+$pass = "";
+$bancoDeDados = "cadastro";*/
+
 $localhost = "localhost";
 $user = "root";
 $pass = "";
-$bancoDeDados = "cadastro";
+$bancoDeDados = "usuario";
 
 // SISTEMAS
 /*$sql = $pdo->query("SELECT * FROM usuario");

@@ -23,15 +23,15 @@
                     <a href="#"><li>Baixar</li></a>
                     <a href="#"><li>Criar</li></a>
                     |
-                    <a href="#"><li>Inscrever-se</li></a>
-                    <a href="#"><li>Login</li></a>
+                    <!-- <a href="#"><li>Inscrever-se</li></a> -->
+                    <a href="login.php"><li>Login</li></a>
                 </ul>
             </nav>
         </header>
 
         <!-- FORMULARIO -->
         <div id="formulario">
-            <form id="form" action="logar.php" method="POST">
+            <form id="form" action="novoCadastro.php" method="POST">
                 
                     <img src="../img/helloteca-logo-black.png">
                 
@@ -39,22 +39,22 @@
                 <div id="container">
                     <div id="cadastroUsuario">
                         <p>Nome *</p>
-                        <input type="text" name="email" placeholder="Nome" />
+                        <input type="text" name="nome" placeholder="Nome" />
                     </div>
 
                     <div id="cadastroUsuario">
                         <p>Sobrenome *</p>
-                        <input type="text" name="email" placeholder="Sobrenome" />
+                        <input type="text" name="sobrenome" placeholder="Sobrenome" />
                     </div>
 
                     <div id="cadastroUsuario">
                         <p>Data de Nascimento *</p>
-                        <input type="date" name="email" placeholder="Exemplo 01/01/2001" />
+                        <input type="date" name="dataNasc" placeholder="Exemplo 01/01/2001" />
                     </div>
 
                     <div id="cadastroUsuario">
                         <p>Telefone</p>
-                        <input type="tel" name="email" placeholder="Exemplo (11) 12345-6789" />
+                        <input type="tel" name="tel" placeholder="Exemplo (11) 12345-6789" />
                     </div>
 
                     <div id="cadastroUsuario">
@@ -64,16 +64,16 @@
 
                     <div id="cadastroUsuario">
                         <p>Senha *</p>
-                        <input type="password" name="email" placeholder="Senha" />
+                        <input type="password" name="senha" placeholder="Senha" />
                     </div>
 
                     <div id="cadastroUsuario">
                         <p>CPF *</p>
-                        <input type="cpf" name="email" placeholder="_ _ _._ _ _._ _ _-_ _" />
+                        <input type="text" name="cpf" placeholder="_ _ _._ _ _._ _ _-_ _" />
                     </div>
 
                     <div id="pointerCadastro">
-                        <input type="radio" name="senha" placeholder="Senha" />
+                        <input type="radio" />
                         <p>Eu aceito os <a href="#">Termos e Condições</a> e a <a href="#">Política de Privacidade</a> da Hello!Teca</p>
                     </div>
 

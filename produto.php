@@ -1,3 +1,11 @@
+<?php 
+
+require 'services/verifica.php';
+
+if(isset($_SESSION['idUser']) && !empty($_SESSION['idUser'])):
+
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -31,7 +39,8 @@
                             </svg>
                         </li>
                     </a> -->
-                    <a href="#"><li>Login</li></a>
+                    <a href="#"><li><?php echo $nomeUser; ?></li></a>
+                    <a href="services/logout.php"><li>Logout</li></a>
                 </ul>
             </nav>
         </header>
@@ -214,3 +223,9 @@
     <script src="js/javaScript.js"></script>
 </body>
 </html>
+
+<?php 
+
+else: header("Location: services/login.php"); endif;
+
+?>
