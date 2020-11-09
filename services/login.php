@@ -57,7 +57,7 @@
                     </div>
 
                     <div id="cadastro">
-                        <a href="#">
+                        <a href="cadastro.php">
                             <p>Cadastrar</p>
                         </a>
                         |

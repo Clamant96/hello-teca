@@ -1,3 +1,11 @@
+<?php 
+
+require 'services/verifica.php';
+
+if(isset($_SESSION['idUser']) && !empty($_SESSION['idUser'])):
+
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -160,3 +168,9 @@
     <script src="js/javaScript.js"></script>
 </body>
 </html>
+
+<?php 
+
+else: header("Location: services/login.php"); endif;
+
+?>
