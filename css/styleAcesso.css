@@ -1,3 +1,8 @@
+html, body {
+    background-color: var(--background-green);
+
+}
+
 #container {
     background-color: var(--background-green);
 
@@ -26,14 +31,24 @@
     padding: 2%;
     margin: 3%;
 
-    width: 50%;
+    width: 40%;
     height: auto;
 
     background-color: var(--background-white);
 
-    border-radius: 25px;
+    border-radius: 50px;
 
     border: 1px solid var(--text-gray);
+
+}
+
+
+
+#container #formulario #form img {
+    position: absolute;
+
+    width: 5%;
+    height: auto;
 
 }
 
@@ -68,7 +83,7 @@
 
 /*USUARIO*/
 #container #formulario #form #container #email {
-    width: 50%;
+    width: 60%;
     height: auto;
 
     font-size: 16px;
@@ -103,9 +118,46 @@
 
 }
 
+/*CADASTRO USUARIO*/
+#container #formulario #form #container #cadastroUsuario {
+    width: 60%;
+    height: auto;
+
+    font-size: 16px;
+    font-weight: 500;
+
+    color: var(--background-black);
+
+}
+
+#container #formulario #form #container #cadastroUsuario p {
+    padding: 2%;
+
+    width: 96%;
+    height: auto;
+
+}
+
+#container #formulario #form #container #cadastroUsuario input {
+    padding: 4%;
+
+    width: 92%;
+    height: auto;
+
+    border-radius: 30px;
+    border: none;
+
+    font-size: 20px;
+
+    background-color: var(--background-light-gray);
+
+    border: 1px solid var(--text-gray);
+
+}
+
 /*SENHA*/
 #container #formulario #form #container #senha {
-    width: 50%;
+    width: 60%;
     height: auto;
 
     font-size: 16px;
@@ -142,7 +194,7 @@
 
 /*GRAVAR SENHA*/
 #container #formulario #form #container #pointer {
-    width: 50%;
+    width: 60%;
     height: auto;
 
     font-size: 16px;
@@ -179,9 +231,58 @@
 
 }
 
+/*GRAVAR USUARIO*/
+#container #formulario #form #container #pointerCadastro {
+    width: 60%;
+    height: auto;
+
+    font-size: 16px;
+    font-weight: 500;
+
+    color: var(--background-black);
+
+    display: flex;
+    align-items: center;
+    justify-content: left;
+
+    /* background-color: blueviolet; */
+
+}
+
+#container #formulario #form #container #pointerCadastro p {
+    padding: 2%;
+
+    width: 86%;
+    height: auto;
+
+    font-size: 16px;
+    font-weight: 700;
+
+    /* background-color: brown; */
+
+}
+
+#container #formulario #form #container #pointerCadastro input { 
+    width: 10%;
+    height: auto;
+
+    
+    border: none;
+
+    /* background-color: chartreuse; */
+
+}
+
+#container #formulario #form #container #pointerCadastro p a {
+    text-decoration: none;
+
+    color: var(--text-blue);
+
+}
+
 /*ACESSAR*/
 #container #formulario #form #container #acessar {
-    width: 50%;
+    width: 60%;
     height: auto;
 
     font-size: 16px;
@@ -205,10 +306,45 @@
     border: none;
 
     font-size: 20px;
+
     color: var(--text-white);
 
     background-color: var(--background-blue);
 
     border: 1px solid var(--text-gray);
+
+}
+
+/*CADASTRO*/
+
+#container #formulario #form #container #cadastro {
+    padding: 2%;
+
+    width: 52%;
+    height: auto;
+
+    color: var(--background-black);
+
+    /* background-color: chocolate; */
+
+    display: flex;
+    align-items: center;
+    justify-content: left;
+
+}
+
+#container #formulario #form #container #cadastro a {
+    text-decoration: none;
+
+}
+
+#container #formulario #form #container #cadastro a p {
+    width: 100%;
+    font-size: 16px;
+    font-weight: 700;
+
+    color: var(--text-blue);
+
+    /* background-color: chocolate; */
 
 }

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello Teca - Login</title>
+    <title>Hello Teca - Cadastro</title>
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/styleAcesso.css">   
 
@@ -37,12 +37,51 @@
                 
                 <h1>Login</h1>
                 <div id="container">
-                    <div id="email">
-                        <p>E-mail</p>
+                    <div id="cadastroUsuario">
+                        <p>Nome *</p>
+                        <input type="text" name="email" placeholder="Nome" />
+                    </div>
+
+                    <div id="cadastroUsuario">
+                        <p>Sobrenome *</p>
+                        <input type="text" name="email" placeholder="Sobrenome" />
+                    </div>
+
+                    <div id="cadastroUsuario">
+                        <p>Data de Nascimento *</p>
+                        <input type="date" name="email" placeholder="Exemplo 01/01/2001" />
+                    </div>
+
+                    <div id="cadastroUsuario">
+                        <p>Telefone</p>
+                        <input type="tel" name="email" placeholder="Exemplo (11) 12345-6789" />
+                    </div>
+
+                    <div id="cadastroUsuario">
+                        <p>E-mail *</p>
                         <input type="email" name="email" placeholder="E-mail" />
                     </div>
 
-                    <div id="senha">
+                    <div id="cadastroUsuario">
+                        <p>Senha *</p>
+                        <input type="password" name="email" placeholder="Senha" />
+                    </div>
+
+                    <div id="cadastroUsuario">
+                        <p>CPF *</p>
+                        <input type="cpf" name="email" placeholder="_ _ _._ _ _._ _ _-_ _" />
+                    </div>
+
+                    <div id="pointerCadastro">
+                        <input type="radio" name="senha" placeholder="Senha" />
+                        <p>Eu aceito os <a href="#">Termos e Condições</a> e a <a href="#">Política de Privacidade</a> da Hello!Teca</p>
+                    </div>
+
+                    <div id="acessar">
+                        <button type="submit">CRIAR SUA CONTA</button>
+                    </div>
+
+                    <!-- <div id="senha">
                         <p>Senha</p>
                         <input type="password" name="senha" placeholder="Senha" />
                     </div>
@@ -64,7 +103,7 @@
                         <a href="#">
                             <p>Esqueceu a senha?</p>
                         </a>
-                    </div>
+                    </div> -->
                 </div>
             </form>
         </div>
