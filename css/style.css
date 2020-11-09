@@ -319,3 +319,112 @@ html, body {
     height: auto;
 
 }
+
+/*SECTION*/
+
+#sectionTwo {
+    padding: 2%;
+
+    width: 96%;
+    height: auto;
+
+    background-color: var(--background-light-blue);
+
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+
+}
+
+#sectionTwo #menuProdutos {
+    width: 100%;
+    height: auto;
+
+    text-align: center;
+
+    /*background-color: #29d629;*/
+
+}
+
+#sectionTwo #menuProdutos h1 {
+    padding: 2%;
+
+    width: 96%;
+    height: auto;
+
+    font-size: 50px;
+    font-weight: 600;
+
+    color: var(--text-white);
+
+    text-transform: uppercase;
+
+}
+
+/*SECTION - PRODUTOS PAGE*/
+
+#sectionTwo #produtosPage {
+    padding: 1%;
+
+    width: 98%;
+    height: auto;
+
+    /*background-color: #f6b3ba;*/
+
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+}
+
+#sectionTwo #produtosPage #produto {
+    padding: 2%;
+
+    width: 21%;
+    height: auto;
+
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+
+    /*background-color: #23437e;*/
+
+}
+
+#sectionTwo #produtosPage #produto img {
+    padding: 10%;
+    width: 80%;
+    height: auto;
+
+}
+
+#sectionTwo #produtosPage #produto #buttonProduto {
+    width: 100%;
+    height: auto;
+
+    margin-top: 5%;
+
+    text-align: center;
+
+}
+
+#sectionTwo #produtosPage #produto #buttonProduto button {
+    padding: 5%;
+
+    width: 60%;
+    height: auto;
+
+    border-radius: 30px;
+    border: none;
+
+    font-size: 30px;
+    font-weight: 600;
+
+    color: var(--text-white);
+
+    background-color: var(--background-green);
+
+    text-align: center;
+
+}
