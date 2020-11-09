@@ -634,6 +634,61 @@ html, body {
 
 }
 
+/*SECTION - PAGINAS PRODUTO*/
+#container #sectionProdutos #paginasProduto {
+    padding: 2%;
+
+    width: 96%;
+    height: auto;
+
+    /* background-color: #1ed760; */
+
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;    
+
+}
+
+#container #sectionProdutos #paginasProduto #capa {
+    width: 100%;
+    height: auto;
+
+    /* background-color: #23437e; */
+
+    text-align: center;
+
+}
+
+#container #sectionProdutos #paginasProduto #capa img {
+    width: 50%;
+    height: auto;
+
+}
+
+#container #sectionProdutos #paginasProduto #paginacao {
+    width: 30%;
+    height: auto;
+
+    margin-left: 35%;
+
+    /*background-color: #29d629;*/
+
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+#container #sectionProdutos #paginasProduto #paginacao img {
+    padding: 1%;
+
+    width: 98%;
+    height: auto;
+
+}
+
 #container #footer {
     padding: 2%;
 
