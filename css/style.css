@@ -33,6 +33,7 @@ html, body {
     --text-pink: #f6b3ba;
     --text-black: #000000;
     --text-blue: #1919af;
+    --text-gray: #5b5b5b;
 
 }
 
@@ -125,7 +126,7 @@ html, body {
 
 /*SECTION*/
 
-#sectionOne {
+#container #sectionOne {
     padding: 2%;
 
     width: 96%;
@@ -146,7 +147,7 @@ html, body {
 
 /*SECTION - TEXTO*/
 
-#sectionOne #texto {
+#container #sectionOne #texto {
     width: 100%;
     height: auto;
 
@@ -159,7 +160,7 @@ html, body {
 
 }
 
-#sectionOne #texto #img {
+#container #sectionOne #texto #img {
     width: 80%;
     height: auto;
 
@@ -171,13 +172,13 @@ html, body {
 
 }
 
-#sectionOne #texto #img img {
+#container #sectionOne #texto #img img {
     width: 40%;
     height: auto;
 
 }
 
-#sectionOne #texto #img #button {
+#container #sectionOne #texto #img #button {
     width: 25%;
     height: auto;
 
@@ -187,7 +188,7 @@ html, body {
 
 }
 
-#sectionOne #texto #img #button button {
+#container #sectionOne #texto #img #button button {
     padding: 5%;
 
     width: 90%;
@@ -207,7 +208,7 @@ html, body {
 
 }
 
-#sectionOne #texto #imgReticulo {
+#container #sectionOne #texto #imgReticulo {
     padding: 0% 10% 0% 7%;
 
     width: 80%;
@@ -219,19 +220,19 @@ html, body {
 
 }
 
-#sectionOne #texto #imgReticulo img {
+#container #sectionOne #texto #imgReticulo img {
     width: 50%;
     height: auto;
 
 }
 
-#sectionOne #texto #imgReticulo #dimesao {
+#container #sectionOne #texto #imgReticulo #dimesao {
     width: 40%;
     height: auto;
 
 }
 
-#sectionOne #texto #imgReticulo p {
+#container #sectionOne #texto #imgReticulo p {
     padding: 2%;
 
     width: 40%;
@@ -248,7 +249,7 @@ html, body {
 
 /*SECTION - SEARCH*/
 
-#sectionOne #search {
+#container #sectionOne #search {
     padding: 1%;
 
     width: 98%;
@@ -262,7 +263,7 @@ html, body {
 
 }
 
-#sectionOne #search #botaoSearch {
+#container #sectionOne #search #botaoSearch {
     width: 45%;
     height: auto;
 
@@ -277,7 +278,7 @@ html, body {
 
 }
 
-#sectionOne #search #botaoSearch input {
+#container #sectionOne #search #botaoSearch input {
     padding: 2%;
 
     width: 76%;
@@ -292,7 +293,7 @@ html, body {
 
 }
 
-#sectionOne #search #botaoSearch svg {
+#container #sectionOne #search #botaoSearch svg {
     padding: 2%;
 
     width: 6%;
@@ -302,7 +303,7 @@ html, body {
 
 /*SECTION - MOUSE*/
 
-#sectionOne #mouse {
+#container #sectionOne #mouse {
     padding: 1%;
 
     width: 98%;
@@ -314,7 +315,7 @@ html, body {
 
 }
 
-#sectionOne #mouse svg {
+#container #sectionOne #mouse svg {
     width: 5%;
     height: auto;
 
@@ -322,7 +323,7 @@ html, body {
 
 /*SECTION*/
 
-#sectionTwo {
+#container #sectionTwo {
     padding: 2%;
 
     width: 96%;
@@ -336,7 +337,7 @@ html, body {
 
 }
 
-#sectionTwo #menuProdutos {
+#container #sectionTwo #menuProdutos {
     width: 100%;
     height: auto;
 
@@ -346,7 +347,7 @@ html, body {
 
 }
 
-#sectionTwo #menuProdutos h1 {
+#container #sectionTwo #menuProdutos h1 {
     padding: 2%;
 
     width: 96%;
@@ -363,7 +364,7 @@ html, body {
 
 /*SECTION - PRODUTOS PAGE*/
 
-#sectionTwo #produtosPage {
+#container #sectionTwo #produtosPage {
     padding: 1%;
 
     width: 98%;
@@ -377,7 +378,7 @@ html, body {
 
 }
 
-#sectionTwo #produtosPage #produto {
+#container #sectionTwo #produtosPage #produto {
     padding: 2%;
 
     width: 21%;
@@ -392,14 +393,14 @@ html, body {
 
 }
 
-#sectionTwo #produtosPage #produto img {
+#container #sectionTwo #produtosPage #produto img {
     padding: 10%;
     width: 80%;
     height: auto;
 
 }
 
-#sectionTwo #produtosPage #produto #buttonProduto {
+#container #sectionTwo #produtosPage #produto #buttonProduto {
     width: 100%;
     height: auto;
 
@@ -409,7 +410,7 @@ html, body {
 
 }
 
-#sectionTwo #produtosPage #produto #buttonProduto button {
+#container #sectionTwo #produtosPage #produto #buttonProduto button {
     padding: 5%;
 
     width: 60%;
@@ -424,6 +425,171 @@ html, body {
     color: var(--text-white);
 
     background-color: var(--background-green);
+
+    text-align: center;
+
+}
+
+#container #footer {
+    padding: 2%;
+
+    width: 96%;
+    height: 40%;
+
+    background-color: var(--background-black);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#container #footer #footerLogo {
+    width: 10%;
+    height: auto;
+
+}
+
+#container #footer #footerLogo img {
+    width: 100%;
+    height: auto;
+
+}
+
+#container #footer #footerLogo #social {
+    width: 100%;
+    height: auto;
+
+}
+
+#container #footer #footerLogo #social img {
+    padding: 1%;
+    width: 20%;
+    height: auto;
+
+}
+
+#container #footer #footerMenu {
+    width: 60%;
+    height: auto;
+
+    /*background-color: #1ed760;*/
+
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+}
+
+#container #footer #footerMenu nav {
+    width: 20%;
+    height: auto;
+
+}
+
+#container #footer #footerMenu nav ul {
+    list-style: none;
+
+    width: 100%;
+    height: auto;
+
+}
+
+#container #footer #footerMenu nav ul a {
+    text-decoration: none;
+
+    width: 100%;
+    height: auto;
+
+}
+
+#container #footer #footerMenu nav ul a p {
+    padding: 5% 0% 5% 0%;
+
+    width: 90%;
+    height: auto;
+
+    font-size: 14px;
+    font-weight: 700;
+
+    color: var(--text-gray);
+
+    text-transform: uppercase;
+
+}
+
+#container #footer #footerMenu nav ul a li {
+    padding: 2% 0% 2% 0%;
+
+    width: 96%;
+    height: auto;
+
+    font-size: 14px;
+    font-weight: 500;
+
+    color: var(--text-white);
+
+}
+
+/*FOOTER - LICENCA*/
+
+#container #footerLicenca {
+    padding: 1%;
+
+    width: 98%;
+    height: auto;
+
+    background-color: var(--background-black);
+
+}
+
+#container #footerLicenca nav {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+}
+
+#container #footerLicenca nav ul {
+    width: 60%;
+    height: auto;
+
+    list-style: none;
+
+    /*background-color: #1ed760;*/
+
+}
+
+#container #footerLicenca nav ul li {
+    display: inline;
+
+    padding: 1%;
+
+    width: 98%;
+    height: auto;
+
+    font-size: 12px;
+    font-weight: 600;
+
+    color: var(--text-white);
+
+}
+
+#container #footerLicenca nav #copyright {
+    width: 10%;
+
+    /*background-color: #23437e;*/
+
+}
+
+#container #footerLicenca nav #copyright p {
+    font-size: 14px;
+    font-weight: 600;
+
+    color: var(--text-gray);
 
     text-align: center;
 
