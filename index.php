@@ -31,6 +31,13 @@ if(isset($_SESSION['idUser']) && !empty($_SESSION['idUser'])):
                     <a href="#"><li>Criar</li></a>
                     |
                     <a href="#"><li><?php echo $nomeUser; ?></li></a>
+                    <?php 
+                        if($situacaolUser == 2){
+                            echo "<a href=\"services\listandoItens.php\">Usuarios</a> <a href=\"services\listandoItens.php\">Produtos</a> |";
+
+                        }
+                                
+                    ?>
                     <a href="services/logout.php"><li>Logout</li></a>
                 </ul>
             </nav>

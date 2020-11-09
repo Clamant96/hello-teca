@@ -251,6 +251,7 @@ html, body {
 /*SECTION - SEARCH*/
 
 #container #sectionOne #search {
+    margin-top: 2.5%;
     padding: 1%;
 
     width: 98%;
