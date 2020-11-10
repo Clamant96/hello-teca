@@ -17,6 +17,8 @@ html, body {
     width: 100%;
     height: 100%;
 
+    background-color: var(--background-black);
+
 }
 
 :root {
@@ -28,7 +30,7 @@ html, body {
     --background-light-gray: #eaebeb;
 
     --button-blue: #1919af;
-    --button-blue: #29d629;
+    --button-green: #29d629;
 
     --text-white: #ffffff;
     --text-pink: #f6b3ba;
