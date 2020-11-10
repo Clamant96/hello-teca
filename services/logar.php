@@ -12,7 +12,7 @@ if(isset($_POST['email']) && !empty($_POST['email']) && isset($_POST['senha']) &
 
     if($u->login($email, $senha) == true){
         if(isset($_SESSION['idUser'])){
-            header("Location: ../index.php");
+            header("Location: ../indexCadastro.php");
 
         }else{
             header("Location: login.php");

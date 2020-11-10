@@ -22,12 +22,14 @@ if(isset($_SESSION['idUser']) && !empty($_SESSION['idUser'])):
 
         <!-- HEADER -->
         <header id="header">
-            <div id="img">
-                <img src="../img/helloteca-logo-white.png">
-            </div>
+            <a href="../indexCadastro.php">
+                <div id="img">
+                    <img src="../img/helloteca-logo-white.png">
+                </div>
+            </a>
             <nav>
                 <ul>
-                    <a href="../index.php"><li>Inicio</li></a>
+                    <a href="../indexCadastro.php"><li>Inicio</li></a>
                     <a href="#"><li>Planos</li></a>
                     <a href="#"><li>Ajuda</li></a>
                     <a href="#"><li>Baixar</li></a>
@@ -41,6 +43,7 @@ if(isset($_SESSION['idUser']) && !empty($_SESSION['idUser'])):
                         }
                                 
                     ?>
+                    <!-- <a href="services/login.php"><li>Inscrever-se</li></a> -->
                     <a href="logout.php"><li>Logout</li></a>
                 </ul>
             </nav>

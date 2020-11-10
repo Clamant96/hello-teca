@@ -123,8 +123,16 @@ html, body {
 
 /*HEADER - MENU LOGO*/
 
-#container #header #img {
+#container #header a {
     width: 20%;
+    height: auto;
+
+    text-align: center;
+
+}
+
+#container #header #img {
+    width: 100%;
     height: auto;
 
     /*background-color: #23437e;*/

@@ -13,9 +13,11 @@
 
         <!-- HEADER -->
         <header id="header">
-            <div id="img">
-                <img src="../img/helloteca-logo-white.png">
-            </div>
+            <a href="../index.php">
+                <div id="img">
+                    <img src="../img/helloteca-logo-white.png">
+                </div>
+            </a>
             <nav>
                 <ul>
                     <a href="#"><li>Planos</li></a>

@@ -1,8 +1,8 @@
 <?php 
 
-//require 'services/verifica.php';
+require 'services/verifica.php';
 
-//if(isset($_SESSION['idUser']) && !empty($_SESSION['idUser'])):
+if(isset($_SESSION['idUser']) && !empty($_SESSION['idUser'])):
 
 ?>
 
@@ -32,16 +32,16 @@
                     <a href="#"><li>Baixar</li></a>
                     <a href="#"><li>Criar</li></a>
                     |
-                    <!--<a href="#"><li><?php echo $nomeUser; ?></li></a>-->
-                    <?php /*
+                    <a href="#"><li><?php echo $nomeUser; ?></li></a>
+                    <?php 
                         if($situacaolUser == 2){
                             echo "<a href=\"services\listandoItens.php\">Usuarios</a> <a href=\"services\listandoProdutos.php\">Produtos</a> |";
 
                         }
-                         */       
+                             
                     ?>
-                    <a href="services/cadastro.php"><li>Inscrever-se</li></a>
-                    <a href="services/login.php"><li>Login</li></a>
+                    <!-- <a href="services/login.php"><li>Inscrever-se</li></a> -->
+                    <a href="services/logout.php"><li>Logout</li></a>
                 </ul>
             </nav>
         </header>
@@ -181,6 +181,6 @@
 
 <?php 
 
-//  else: header("Location: services/login.php"); endif;
+else: header("Location: services/login.php"); endif;
 
 ?>
