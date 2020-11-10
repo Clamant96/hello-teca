@@ -13,17 +13,20 @@
 
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; 
 
+    flex-wrap: wrap;
 }
 
 #container #listar #cardPerfis {
     padding: 1%;
 
-    width: 23%;
+    min-width: 23%;
     height: auto;
 
     /* background-color: bisque; */
+
+    flex: 1;
 
 }
 

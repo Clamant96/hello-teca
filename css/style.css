@@ -38,6 +38,11 @@ html, body {
 
 }
 
+/*SCROLL NONE*/
+::-webkit-scrollbar {
+    display: none;
+}
+
 /*CONTAINER*/
 
 #container {

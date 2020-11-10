@@ -25,6 +25,7 @@ if(isset($_SESSION['idUser']) && !empty($_SESSION['idUser'])):
             </div>
             <nav>
                 <ul>
+                    <a href="index.php"><li>Inicio</li></a>
                     <a href="#"><li>Planos</li></a>
                     <a href="#"><li>Ajuda</li></a>
                     <a href="#"><li>Baixar</li></a>
@@ -40,6 +41,13 @@ if(isset($_SESSION['idUser']) && !empty($_SESSION['idUser'])):
                         </li>
                     </a> -->
                     <a href="#"><li><?php echo $nomeUser; ?></li></a>
+                    <?php 
+                        if($situacaolUser == 2){
+                            echo "<a href=\"services\listandoItens.php\">Usuarios</a> <a href=\"services\listandoProdutos.php\">Produtos</a> |";
+
+                        }
+                                
+                    ?>
                     <a href="services/logout.php"><li>Logout</li></a>
                 </ul>
             </nav>
