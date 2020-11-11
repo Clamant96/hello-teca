@@ -2,10 +2,26 @@
 
 session_start();
 
-$localhost = "fdb28.awardspace.net";
-$user = "3646899_cadastro";
+/*$localhost = "fdb22.awardspace.net";
+$user = "3486769_cadastro";
 $pass = "";
-$bancoDeDados = "3646899_cadastro";
+$bancoDeDados = "3486769_cadastro";*/
+
+/*$localhost = "localhost";
+$user = "root";
+$pass = "";
+$bancoDeDados = "cadastro";*/
+
+$localhost = "localhost";
+$user = "root";
+$pass = "";
+$bancoDeDados = "usuario";
+
+// SISTEMAS
+/*$sql = $pdo->query("SELECT * FROM usuario");
+$sql->execute();
+
+echo "Existem ". $sql->rowCount() ." resgitros de cadastro";*/
 
 global $pdo;
 

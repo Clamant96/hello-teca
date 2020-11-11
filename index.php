@@ -27,10 +27,10 @@
             </a>
             <nav>
                 <ul>
-                    <a href="#"><li>Planos</li></a>
-                    <a href="#"><li>Ajuda</li></a>
-                    <a href="#"><li>Baixar</li></a>
-                    <a href="#"><li>Criar</li></a>
+                    <a href="planos.php"><li>Planos</li></a>
+                    <a href="services/login.php"><li>Ajuda</li></a>
+                    <a href="baixar.php"><li>Baixar</li></a>
+                    <a href="services/login.php"><li>Criar</li></a>
                     |
                     <!--<a href="#"><li><?php echo $nomeUser; ?></li></a>-->
                     <?php /*
