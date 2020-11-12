@@ -569,6 +569,29 @@ html, body {
 
 }
 
+#container #sectionOne #blocoConteudo #compartilharObras #img #controleSvg #file {
+    padding: 2%;
+
+    width: 96%;
+    height: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* background-color: turquoise; */
+
+}
+
+#container #sectionOne #blocoConteudo #compartilharObras #img #controleSvg #file input {
+    width: 60%;
+    height: auto;
+
+    font-size: 14px;
+    font-weight: 600;
+
+}
+
 #container #sectionOne #blocoConteudo #compartilharObras #img #texto {
     padding-left: 0.5%;
     width: 99%;

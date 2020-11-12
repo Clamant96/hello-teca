@@ -60,10 +60,10 @@
 
                 </div> -->
                 <div id="button">
-                        <button>
-                            Baixe o Hello!Teca Free
-                        </button>
-                    </div>
+                    <button>
+                        Baixe o Hello!Teca Free
+                    </button>
+                </div>
                 <div id="imgReticulo">
                     <img src="img/irregular-form1.png">
                     <div id="conteudoBanner">

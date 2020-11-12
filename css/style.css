@@ -167,7 +167,7 @@ html, body {
     width: 100%;
     height: auto;
 
-    /*background-color: brown;*/
+    /* background-color: brown; */
 
     display: flex;
     align-items: center;
@@ -194,13 +194,13 @@ html, body {
 
 }
 
-#container #sectionOne #texto #img #button {
+/* #container #sectionOne #texto #img #button {
     width: 25%;
     height: auto;
 
     margin-top: -10%;
 
-    /*background-color: #f6b3ba;*/
+    background-color: #f6b3ba;
 
 }
 
@@ -208,6 +208,44 @@ html, body {
     padding: 5%;
 
     width: 90%;
+    height: auto;
+
+    border-radius: 25px;
+    border: none;
+
+    font-size: 16px;
+    font-weight: 600;
+
+    color: var(--text-white);
+
+    background-color: var(--background-green);
+
+    text-transform: uppercase;
+
+} */
+
+#container #sectionOne #texto #button {
+    position: absolute;
+
+    top: 0;
+
+    margin-top: 6.3%;
+    margin-right: 3%;
+
+    width: 100%;
+    height: auto;
+
+    /* background-color: turquoise; */
+
+    text-align: right;
+
+}
+
+#container #sectionOne #texto #button button {
+    padding: 0.95%;
+    margin-right: 5%;
+
+    width: 19.3%;
     height: auto;
 
     border-radius: 25px;

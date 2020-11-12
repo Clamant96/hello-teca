@@ -52,12 +52,17 @@ if(isset($_SESSION['idUser']) && !empty($_SESSION['idUser'])):
                 <div id="img">
                     <img src="img/helloteca-logo-white-home.png">
 
-                    <div id="button">
+                    <!-- <div id="button">
                         <button>
                             Baixe o Hello!Teca Free
                         </button>
-                    </div>
+                    </div> -->
 
+                </div>
+                <div id="button">
+                    <button>
+                        Baixe o Hello!Teca Free
+                    </button>
                 </div>
                 <div id="imgReticulo">
                     <img src="img/irregular-form1.png">
