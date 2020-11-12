@@ -29,8 +29,8 @@ if(isset($_SESSION['idUser']) && !empty($_SESSION['idUser'])):
                 <ul>
                     <a href="../indexCadastro.php"><li>Inicio</li></a>
                     <a href="../ajuda.php"><li>Ajuda</li></a>
-                    <a href="#"><li>Baixar</li></a>
-                    <a href="#"><li>Criar</li></a>
+                    <a href="baixarLogin.php"><li>Baixar</li></a>
+                    <a href="../criar.php"><li>Criar</li></a>
                     |
                     <a href="#"><li><?php echo $nomeUser; ?></li></a>
                     <?php 
@@ -113,7 +113,7 @@ if(isset($_SESSION['idUser']) && !empty($_SESSION['idUser'])):
                                     <h2>* Apenas ". $row["qtdconta"] ." conta</h2>
                                 </div>
                                 <div id=\"buttonProduto\">
-                                    <a href=\"services/login.php\">
+                                    <a href=\"../indexCadastro.php\">
                                         <button>Começar</button>
                                     </a>
                                 </div>

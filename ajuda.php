@@ -30,7 +30,7 @@ if(isset($_SESSION['idUser']) && !empty($_SESSION['idUser'])):
                     <a href="services/planosLogin.php"><li>Planos</li></a>
                     <a href="#"><li>Ajuda</li></a>
                     <a href="services/baixarLogin.php"><li>Baixar</li></a>
-                    <a href="services/login.php"><li>Criar</li></a>
+                    <a href="criar.php"><li>Criar</li></a>
                     |
                     <a href="#"><li><?php echo $nomeUser; ?></li></a>
                     <?php 
@@ -66,37 +66,24 @@ if(isset($_SESSION['idUser']) && !empty($_SESSION['idUser'])):
                     </div>
                 </div>
             </div>
-            <div id="produtosPage">
-                <div id="produto">
-                    <img src="img/Repetição de grade 8.png">
-                    <div id="buttonProduto">
-                        <a href="produto.php">
-                            <button>Ver</button>
-                        </a>
+            <div id="menuProdutos">
+                <h1>Autoatendimento</h1>
+                <p>Se você não encontrou respostas para sua dúvida estre as mais frequentes, tente buscas aqui embaixo:</p>
+                <div id="circulos">
+                    <div id="formaCirular">
+                        <p>Cadastro</p>
                     </div>
-                </div>
-                <div id="produto">
-                    <img src="img/Repetição de grade 7.png">
-                    <div id="buttonProduto">
-                        <a href="produto.php">
-                            <button>Ver</button>
-                        </a>
+                    <div id="formaCirular">
+                        <p>Baixar</p>
                     </div>
-                </div>
-                <div id="produto">
-                    <img src="img/Repetição de grade 6.png">
-                    <div id="buttonProduto">
-                        <a href="produto.php">
-                            <button>Ver</button>
-                        </a>
+                    <div id="formaCirular">
+                        <p>Planos</p>
                     </div>
-                </div>
-                <div id="produto">
-                    <img src="img/Repetição de grade 9.png">
-                    <div id="buttonProduto">
-                        <a href="produto.php">
-                            <button>Ver</button>
-                        </a>
+                    <div id="formaCirular">
+                        <p>Criar</p>
+                    </div>
+                    <div id="formaCirular">
+                        <p>Cancelar</p>
                     </div>
                 </div>
             </div>

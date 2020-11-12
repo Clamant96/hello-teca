@@ -39,6 +39,7 @@ html, body {
     --text-black: #000000;
     --text-blue: #1919af;
     --text-gray: #5b5b5b;
+    --text-light-gray: #b0b0b0;
 
 }
 
@@ -161,6 +162,8 @@ html, body {
 }
 
 #container #sectionOne #blocoConteudo {
+    padding: 1%;
+
     min-width: 40%;
     max-width: 40%;
     height: auto;
@@ -171,7 +174,333 @@ html, body {
 
 }
 
+#container #sectionOne #containerDocs {
+    padding: 1%;
+
+    min-width: 40%;
+    max-width: 40%;
+    height: auto;
+
+}
+
+#container #sectionOne #blocoConteudoDegrade {
+    padding: 1%;
+
+    width: 100%;
+    height: auto;
+
+    /* background-color: violet; */
+
+    flex: 1;
+
+}
+
+#container #sectionOne #blocoConteudoDegrade #opcoes {
+    width: 100%;
+    height: auto;
+
+    /* background-color: turquoise; */
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    text-align: center;
+
+}
+
+#container #sectionOne #blocoConteudoDegrade #opcoes h1 {
+    padding: 2%;
+
+    width: 40%;
+    height: auto;
+
+    font-size: 20px;
+    font-weight: 700;
+
+    border-radius: 30px 30px 0px 0px;
+
+    border: 1px solid var(--text-light-gray);
+
+    background-color: var(--background-white);
+
+    color: var(--text-light-gray);
+
+}
+
+#container #sectionOne #blocoConteudoDegrade #opcoes #cor {
+    background-color: var(--text-light-gray);
+
+    color: var(--text-white);
+
+}
+
+#container #sectionOne #blocoConteudoDegrade #compartilharObras {
+    padding: 1%;
+
+    width: 98%;
+    height: 52vh;
+
+    background-image: linear-gradient(#9e91ab, #e67f85);
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: left;
+
+}
+
+#container #sectionOne #blocoConteudoDegrade #compartilharObras #anexos {
+    padding: 5%;
+
+    width: 90%;
+    height: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    flex-wrap: wrap;
+
+    text-align: center;
+
+}
+
+#container #sectionOne #blocoConteudoDegrade #compartilharObras #anexos svg {
+    min-width: 25%;
+    max-width: 25%;
+    height: auto;
+
+    flex: 1;
+
+}
+
+#container #sectionOne #blocoConteudoDegrade #compartilharObras #anexos #compartilhar {
+    margin-top: 5%;
+
+    width: 10vw;
+    height: 10vh;
+
+}
+
+#container #sectionOne #blocoConteudoDegrade #compartilharObras #anexos img {
+    padding: 2%;
+
+    width: 36%;
+    height: auto;
+    
+}
+
+#container #sectionOne #blocoConteudoDegrade #compartilharObras #botao {
+    padding: 2%;
+
+    width: 32%;
+    height: auto;
+
+    background-color: var(--text-light-gray);
+
+    border-radius: 50px;
+
+    border: 1px solid var(--text-gray);
+
+}
+
+#container #sectionOne #blocoConteudoDegrade #compartilharObras #botao button {
+    width: 100%;
+    height: auto;
+
+    font-size: 30px;
+    font-weight: 700;
+
+    color: var(--text-white);
+
+    border: none;
+
+    background-color: transparent;
+
+}
+
+/*-------------------*/
+
+#container #sectionOne #blocoConteudoDetalhes {
+    padding: 1%;
+
+    width: 100%;
+    height: auto;
+
+    /* background-color: violet; */
+
+    flex: 1;
+
+}
+
+#container #sectionOne #blocoConteudoDetalhes #opcoes {
+    width: 100%;
+    height: auto;
+
+    /* background-color: turquoise; */
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    text-align: center;
+
+}
+
+#container #sectionOne #blocoConteudoDetalhes #opcoes #cor {
+    padding: 2%;
+
+    width: 40%;
+    height: auto;
+
+    font-size: 20px;
+    font-weight: 700;
+
+    border-radius: 30px 30px 0px 0px;
+
+    border: 1px solid var(--text-light-gray);
+
+    background-color: var(--text-light-gray);
+
+    color: var(--text-white);
+
+}
+
+#container #sectionOne #blocoConteudoDetalhes #compartilharObras {
+    padding: 1%;
+
+    width: 98%;
+    height: auto;
+    /* height: 52vh; */
+
+    background-image: linear-gradient(#9e91ab, #e67f85);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#container #sectionOne #blocoConteudoDetalhes #compartilharObras #perfil {
+    padding: 2%;
+
+    width: 26%;
+    height: auto;
+
+    /* background-color: turquoise; */
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+#container #sectionOne #blocoConteudoDetalhes #compartilharObras #perfil svg {
+    padding: 5%;
+
+    width: 90%;
+    height: auto;
+
+}
+
+#container #sectionOne #blocoConteudoDetalhes #compartilharObras #perfil p {
+    width: 100%;
+    height: auto;
+
+    text-align: center;
+
+    font-size: 45px;
+    font-weight: 700;
+
+}
+
+#container #sectionOne #blocoConteudoDetalhes #compartilharObras #status {
+    padding: 2%;
+
+    width: 56%;
+    height: auto;
+
+    /* background-color: palegreen; */
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+#container #sectionOne #blocoConteudoDetalhes #compartilharObras #status #statusPerfil {
+    width: 100%;
+    height: auto;
+
+    /* background-color: darkgoldenrod; */
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+#container #sectionOne #blocoConteudoDetalhes #compartilharObras #status #statusPerfil #contudoStatus {
+    padding: 2%;
+
+    min-width: 21%;
+    max-width: 21%;
+
+    /* background-color: darkgreen; */
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+#container #sectionOne #blocoConteudoDetalhes #compartilharObras #status #statusPerfil #contudoStatus p {
+    padding: 2%;
+
+    width: 96%;
+    height: auto;
+
+    text-align: center;
+
+    font-size: 25px;
+    font-weight: 600;
+
+    color: var(--text-white);
+
+}
+
+#container #sectionOne #blocoConteudoDetalhes #compartilharObras #status #statusPerfil #contudoStatus svg {
+    width: 50%;
+    height: auto;
+
+}
+
+#container #sectionOne #blocoConteudoDetalhes #compartilharObras #status #statusPerfil #contudoStatus #conjuntoStar {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#container #sectionOne #blocoConteudoDetalhes #compartilharObras #status #statusPerfil #contudoStatus #conjuntoStar svg {
+    padding: 2%;
+
+    width: 26%;
+    height: auto;
+
+}
+
+/*-------------------*/
+
 #container #sectionOne #blocoConteudo h1 {
+    padding: 2% 0% 2% 0%;
     width: 100%;
     height: auto;
 
@@ -224,6 +553,8 @@ html, body {
 
     background-color: var(--background-dark-pink);
 
+    border: 1px solid var(--text-light-gray);
+
 }
 
 #container #sectionOne #blocoConteudo #compartilharObras #img #controleSvg p {
@@ -270,6 +601,33 @@ html, body {
 
     width: 94%;
     height: auto;
+
+    font-size: 20px;
+    font-weight: 700;
+
+    border: 1px solid var(--text-light-gray);
+
+}
+
+#container #sectionOne #blocoConteudo #compartilharObras #descricao {
+    margin-top: 1%;
+    width: 99.7%;
+    height: auto;
+
+    background-color: var(--background-white);
+
+    border: 1px solid var(--text-light-gray);
+
+}
+
+#container #sectionOne #blocoConteudo #compartilharObras #descricao textarea {
+    padding: 2%;
+
+    width: 96%;
+    height: 100vh;
+
+    border: none;
+    background-color: transparent;
 
     font-size: 20px;
     font-weight: 700;

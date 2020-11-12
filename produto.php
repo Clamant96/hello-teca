@@ -28,10 +28,10 @@ if(isset($_SESSION['idUser']) && !empty($_SESSION['idUser'])):
             <nav>
                 <ul>
                     <a href="indexCadastro.php"><li>Inicio</li></a>
-                    <a href="#"><li>Planos</li></a>
-                    <a href="#"><li>Ajuda</li></a>
-                    <a href="#"><li>Baixar</li></a>
-                    <a href="#"><li>Criar</li></a>
+                    <a href="services/planosLogin.php"><li>Planos</li></a>
+                    <a href="ajuda.php"><li>Ajuda</li></a>
+                    <a href="services/baixarLogin.php"><li>Baixar</li></a>
+                    <a href="criar.php"><li>Criar</li></a>
                     |
                     <!-- <a href="#">
                         <li>

@@ -12,7 +12,7 @@ if(isset($_SESSION['idUser']) && !empty($_SESSION['idUser'])):
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hello Teca</title>
-    <link rel="stylesheet" href="../css/stylebaixar.css">
+    <link rel="stylesheet" href="../css/styleBaixar.css">
 
 </head>
 <body>
@@ -30,12 +30,12 @@ if(isset($_SESSION['idUser']) && !empty($_SESSION['idUser'])):
                     <a href="../indexCadastro.php"><li>Inicio</li></a>
                     <a href="../ajuda.php"><li>Ajuda</li></a>
                     <a href="#"><li>Baixar</li></a>
-                    <a href="login.php"><li>Criar</li></a>
+                    <a href="../criar.php"><li>Criar</li></a>
                     |
                     <a href="#"><li><?php echo $nomeUser; ?></li></a>
                     <?php 
                         if($situacaolUser == 2){
-                            echo "<a href=\"services\listandoItens.php\">Usuarios</a> <a href=\"services\listandoProdutos.php\">Produtos</a> |";
+                            echo "<a href=\"listandoItens.php\">Usuarios</a> <a href=\"listandoProdutos.php\">Produtos</a> |";
 
                         }
                              
