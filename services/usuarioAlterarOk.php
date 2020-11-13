@@ -10,8 +10,9 @@ $tel = $_POST["tel"];
 $email = $_POST["email"];
 $senha = $_POST["senha"];
 $cpf = $_POST["cpf"];
+$situacao = $_POST["situacao"];
 
-$sql = "UPDATE usuario SET nome = '" . $nome . "', email = '" . $email . "',senha ='" . $senha . "', sobrenome = '" . $sobrenome . "', dataNasc = '" . $dataNasc . "', tel = '" . $tel . "', cpf = '" . $cpf . "' WHERE idusuario = " . $id;
+$sql = "UPDATE usuario SET nome = '" . $nome . "', email = '" . $email . "',senha ='" . $senha . "', sobrenome = '" . $sobrenome . "', dataNasc = '" . $dataNasc . "', tel = '" . $tel . "', cpf = '" . $cpf . "', situacao = '" . $situacao . "' WHERE idusuario = " . $id;
 
 $mysqli->query($sql);
 $mysqli->close();

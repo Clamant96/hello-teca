@@ -1,37 +1,36 @@
-#container #listar {
-    padding: 1%;
+#container {
+    background-color: var(--background-black);
 
-    width: 98%;
+}
+
+#container #gerenciar {
+    padding: 5%;
+
+    width: 90%;
     height: auto;
-
-    background-color: var(--background-blue);
 
     display: flex;
     align-items: center;
-    justify-content: center; 
+    flex-direction: column;
+    justify-content: center;
 
-    flex-wrap: wrap;
-}
-
-#container #listar #cardPerfis {
-    padding: 1%;
-
-    min-width: 23%;
-    height: auto;
-
-    /* background-color: bisque; */
-
-    flex: 1;
+    background-color: var(--background-light-gray);
 
 }
 
-#container #listar #cardPerfis #opcoes {
-    padding: 1%;
-
-    width: 98%;
+#container #gerenciar #dados {
+    width: 100%;
     height: auto;
 
-    background-color: var(--background-black);
+    box-shadow: 0px 3px 7px -5px var(--text-gray);
+
+}
+
+#container #gerenciar #dados #tabela {
+    width: 100%;
+    height: auto;
+    
+    /* background-color: thistle; */
 
     display: flex;
     align-items: center;
@@ -39,55 +38,167 @@
 
 }
 
-#container #listar #cardPerfis #opcoes a {
-    font-size: 1.5em;
-
-    margin: 3%;
-
-    width: auto;
-
-    text-decoration: none;
-
-    color: var(--text-gray);
-
-}
-
-#container #listar #cardPerfis #perfil {
-    padding: 2%;
-
-    width: 96%;
-    height: auto;
-
-    background-color: var(--background-light-gray);
-
-    box-shadow: 0px 4px 5px -5px var(--text-black);
-
-} 
-
-#container #listar #cardPerfis #perfil #dadosUsuario {
+#container #gerenciar #dados #tabela #colunas {
     padding: 1%;
 
-    width: 98%;
+    width: 23%;
     height: auto;
 
     display: flex;
     align-items: center;
     justify-content: left;
 
-    font-size: 14px;
-    font-weight: 500;
-
-    color: var(--text-black); 
+    /* background-color: turquoise; */
 
 }
 
-#container #listar #cardPerfis #perfil #dadosUsuario #resultado {
-    padding: 1%;
-
-    width: 68%;
+#container #gerenciar #dados #tabela #colunas p {
+    width: 100%;
     height: auto;
 
     font-size: 14px;
-    font-weight: 300;
+    font-weight: 600;
+
+    /* background-color: wheat; */
+
+}
+
+#container #gerenciar #dados #linhas {
+    width: 100%;
+    height: auto;
+    
+    /* background-color: thistle; */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#container #gerenciar #dados #linhas #colunas {
+    padding: 1%;
+
+    width: 23%;
+    height: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: left;
+
+    /* background-color: turquoise; */
+
+}
+
+#container #gerenciar #dados #linhas #colunas p {
+    width: 100%;
+    height: auto;
+
+    font-size: 14px;
+    font-weight: 500;
+
+    color: var(--text-gray2);
+
+    /* background-color: wheat; */
+
+}
+
+#container #gerenciar #dados #linhas #colunas {
+    width: 100%;
+    height: auto;
+
+    /* background-color: yellow; */
+
+}
+
+#container #gerenciar #dados #linhas #colunas a {
+    padding: 1%;
+
+    width: 5%;
+    height: auto;
+
+    text-decoration: none;
+
+}
+
+#container #gerenciar #dados #linhas #colunas a svg {
+    width: 100%;
+    height: auto;
+
+    color: var(--text-black);
+
+}
+
+#container #gerenciar #dados #linhas #colunas #gerenciar {
+    width: 30%;
+    height: auto;
+
+    /* background-color: yellowgreen; */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#container #gerenciar #dados #linhas #colunas #gerenciar a {
+    width: 100%;
+    height: auto;
+
+    color: var(--text-gray);
+
+    font-weight: 600;
+
+    text-decoration: none;
+
+    /* background-color: wheat; */
+
+}
+
+#container #gerenciar #dados #linhas #colunas #gerenciar a p {
+    color: var(--text-gray);
+
+    font-weight: 600;
+
+}
+
+#container #gerenciar #ger {
+    padding: 2%;
+    margin: 2%;
+
+    width: 92%;
+    height: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#container #gerenciar #ger a {
+    text-decoration: none;
+
+    padding: 2%;
+
+    width: 16%;
+    height: auto;
+
+    background-color: var(--background-light-gray);
+
+    box-shadow: 0px 3px 7px -5px var(--text-gray);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#container #gerenciar #ger a p {
+    width: auto;
+    height: auto;
+
+    color: var(--text-black);
+
+    font-size: 20px;
+    font-weight: 600;
 
 }

@@ -104,6 +104,12 @@
                         <input type="text" name="cpf" placeholder="_ _ _._ _ _._ _ _-_ _" value="<?php echo $cpf; ?>" />
                     </div>
 
+                    <div id="cadastroUsuario">
+                        <p>Perfil 1 ou 2</p>
+                        <input type="number" name="situacao" placeholder="Tipo de perfil"/>
+
+                    </div>
+
                     <div id="pointerCadastro">
                         <input type="radio" />
                         <p>Eu aceito os <a href="#">Termos e Condições</a> e a <a href="#">Política de Privacidade</a> da Hello!Teca</p>
