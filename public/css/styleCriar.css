@@ -1,0 +1,569 @@
+/*SECTION*/
+
+#container #sectionCadastrar {
+    width: 100%;
+    height: auto;
+
+    background-color: var(--text-pink);
+
+}
+
+#container #sectionCadastrar #form {
+    padding: 2%;
+
+    width: 96%;
+    height: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-wrap: wrap;
+
+}
+
+#container #sectionCadastrar #form #blocoConteudo {
+    padding: 1%;
+
+    min-width: 40%;
+    max-width: 40%;
+    height: auto;
+
+    /* background-color: violet; */
+
+    flex: 1;
+
+}
+
+#container #sectionCadastrar #form #containerDocs {
+    padding: 1%;
+
+    min-width: 40%;
+    max-width: 40%;
+    height: auto;
+
+}
+
+#container #sectionCadastrar #form #blocoConteudoDegrade {
+    padding: 1%;
+
+    width: 98%;
+    height: auto;
+
+    /* background-color: violet; */
+
+    flex: 1;
+
+}
+
+#container #sectionCadastrar #form #blocoConteudoDegrade #opcoes {
+    width: 100%;
+    height: auto;
+
+    /* background-color: turquoise; */
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    text-align: center;
+
+}
+
+#container #sectionCadastrar #form #blocoConteudoDegrade #opcoes h1 {
+    padding: 2%;
+
+    width: 40%;
+    height: auto;
+
+    font-size: 20px;
+    font-weight: 700;
+
+    border-radius: 30px 30px 0px 0px;
+
+    border: 1px solid var(--text-light-gray);
+
+    background-color: var(--background-white);
+
+    color: var(--text-light-gray);
+
+}
+
+#container #sectionCadastrar #form #blocoConteudoDegrade #opcoes #cor {
+    background-color: var(--text-light-gray);
+
+    color: var(--text-white);
+
+}
+
+#container #sectionCadastrar #form #blocoConteudoDegrade #compartilharObras {
+    padding: 1%;
+
+    width: 98%;
+    height: 52vh;
+
+    background-image: linear-gradient(#9e91ab, #e67f85);
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: left;
+
+}
+
+#container #sectionCadastrar #form #blocoConteudoDegrade #compartilharObras #anexos {
+    padding: 5%;
+
+    width: 90%;
+    height: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    flex-wrap: wrap;
+
+    text-align: center;
+
+}
+
+#container #sectionCadastrar #form #blocoConteudoDegrade #compartilharObras #anexos svg {
+    min-width: 25%;
+    max-width: 25%;
+    height: auto;
+
+    flex: 1;
+
+}
+
+#container #sectionCadastrar #form #blocoConteudoDegrade #compartilharObras #anexos #compartilhar {
+    margin-top: 5%;
+
+    width: 10vw;
+    height: 10vh;
+
+}
+
+#container #sectionCadastrar #form #blocoConteudoDegrade #compartilharObras #anexos img {
+    padding: 2%;
+
+    width: 36%;
+    height: auto;
+    
+}
+
+#container #sectionCadastrar #form #blocoConteudoDegrade #compartilharObras #botao {
+    padding: 2%;
+
+    width: 32%;
+    height: auto;
+
+    background-color: var(--text-light-gray);
+
+    border-radius: 50px;
+
+    border: 1px solid var(--text-gray);
+
+}
+
+#container #sectionCadastrar #form #blocoConteudoDegrade #compartilharObras #botao button {
+    width: 100%;
+    height: auto;
+
+    font-size: 30px;
+    font-weight: 700;
+
+    color: var(--text-white);
+
+    border: none;
+
+    background-color: transparent;
+
+}
+
+/*-------------------*/
+
+#container #sectionCadastrar #blocoConteudoDetalhes {
+    padding: 1%;
+
+    width: 98%;
+    height: auto;
+
+    /* background-color: violet; */
+
+    flex: 1;
+
+}
+
+#container #sectionCadastrar #blocoConteudoDetalhes #opcoes {
+    width: 100%;
+    height: auto;
+
+    /* background-color: turquoise; */
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    text-align: center;
+
+}
+
+#container #sectionCadastrar #blocoConteudoDetalhes #opcoes #cor {
+    padding: 2%;
+
+    width: 40%;
+    height: auto;
+
+    font-size: 20px;
+    font-weight: 700;
+
+    border-radius: 30px 30px 0px 0px;
+
+    border: 1px solid var(--text-light-gray);
+
+    background-color: var(--text-light-gray);
+
+    color: var(--text-white);
+
+}
+
+#container #sectionCadastrar #blocoConteudoDetalhes #compartilharObras {
+    padding: 1%;
+
+    width: 98%;
+    height: auto;
+    /* height: 52vh; */
+
+    background-image: linear-gradient(#9e91ab, #e67f85);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#container #sectionCadastrar #blocoConteudoDetalhes #compartilharObras #perfil {
+    padding: 2%;
+
+    width: 26%;
+    height: auto;
+
+    /* background-color: turquoise; */
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+#container #sectionCadastrar #blocoConteudoDetalhes #compartilharObras #perfil svg {
+    padding: 5%;
+
+    width: 90%;
+    height: auto;
+
+}
+
+#container #sectionCadastrar #blocoConteudoDetalhes #compartilharObras #perfil p {
+    width: 100%;
+    height: auto;
+
+    text-align: center;
+
+    font-size: 45px;
+    font-weight: 700;
+
+}
+
+#container #sectionCadastrar #blocoConteudoDetalhes #compartilharObras #status {
+    padding: 2%;
+
+    width: 56%;
+    height: auto;
+
+    /* background-color: palegreen; */
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+#container #sectionCadastrar #blocoConteudoDetalhes #compartilharObras #status #statusPerfil {
+    width: 100%;
+    height: auto;
+
+    /* background-color: darkgoldenrod; */
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+#container #sectionCadastrar #blocoConteudoDetalhes #compartilharObras #status #statusPerfil #contudoStatus {
+    padding: 2%;
+
+    min-width: 21%;
+    max-width: 21%;
+
+    /* background-color: darkgreen; */
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+#container #sectionCadastrar #blocoConteudoDetalhes #compartilharObras #status #statusPerfil #contudoStatus p {
+    padding: 2%;
+
+    width: 96%;
+    height: auto;
+
+    text-align: center;
+
+    font-size: 25px;
+    font-weight: 600;
+
+    color: var(--text-white);
+
+}
+
+#container #sectionCadastrar #blocoConteudoDetalhes #compartilharObras #status #statusPerfil #contudoStatus svg {
+    width: 50%;
+    height: auto;
+
+}
+
+#container #sectionCadastrar #blocoConteudoDetalhes #compartilharObras #status #statusPerfil #contudoStatus #conjuntoStar {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#container #sectionCadastrar #blocoConteudoDetalhes #compartilharObras #status #statusPerfil #contudoStatus #conjuntoStar svg {
+    padding: 2%;
+
+    width: 26%;
+    height: auto;
+
+}
+
+/*-------------------*/
+
+#container #sectionCadastrar #blocoConteudo h1 {
+    padding: 2% 0% 2% 0%;
+    width: 100%;
+    height: auto;
+
+    font-size: 30px;
+    font-weight: 700;
+
+    color: var(--text-black);
+
+}
+
+#container #sectionCadastrar #blocoConteudo #compartilharObras {
+    padding: 0.5%;
+
+    width: 99%;
+    height: auto;
+
+    /* background-color: turquoise; */
+
+    border: 5px solid var(--background-light-pink);
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+#container #sectionCadastrar #blocoConteudo #compartilharObras #img {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* background-color: wheat; */
+
+}
+
+#container #sectionCadastrar #blocoConteudo #compartilharObras #img #controleSvg {
+    padding: 1%;
+
+    width: 58%;
+    height: auto;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+    background-color: var(--background-dark-pink);
+
+    border: 1px solid var(--text-light-gray);
+
+}
+
+#container #sectionCadastrar #blocoConteudo #compartilharObras #img #controleSvg p {
+    font-size: 18px;
+    font-weight: 500;
+
+}
+
+#container #sectionCadastrar #blocoConteudo #compartilharObras #img #controleSvg svg {
+    width: 60%;
+    height: auto;
+
+}
+
+#container #sectionCadastrar #blocoConteudo #compartilharObras #img #controleSvg #file {
+    padding: 2%;
+
+    width: 96%;
+    height: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* background-color: turquoise; */
+
+}
+
+#container #sectionCadastrar #blocoConteudo #compartilharObras #img #controleSvg #file input {
+    width: 60%;
+    height: auto;
+
+    font-size: 14px;
+    font-weight: 600;
+
+}
+
+#container #sectionCadastrar #blocoConteudo #compartilharObras #img #texto {
+    padding-left: 0.5%;
+    width: 99%;
+    height: auto;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+    /* background-color: turquoise; */
+
+}
+
+#container #sectionCadastrar #blocoConteudo #compartilharObras #img #texto p {
+    padding: 1%;
+    margin: 2%;
+
+    width: 94%;
+    height: auto;
+
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+#container #sectionCadastrar #blocoConteudo #compartilharObras #img #texto input {
+    padding: 1%;
+    margin: 2%;
+
+    width: 94%;
+    height: auto;
+
+    font-size: 20px;
+    font-weight: 700;
+
+    border: 1px solid var(--text-light-gray);
+
+}
+
+#container #sectionCadastrar #blocoConteudo #compartilharObras #descricao {
+    margin-top: 1%;
+    width: 99.7%;
+    height: auto;
+
+    background-color: var(--background-white);
+
+    border: 1px solid var(--text-light-gray);
+
+}
+
+#container #sectionCadastrar #blocoConteudo #compartilharObras #descricao textarea {
+    padding: 2%;
+
+    width: 96%;
+    height: 100vh;
+
+    border: none;
+    background-color: transparent;
+
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+#container #sectionCadastrar #blocoConteudo #compartilharObras #precoEurl {
+    margin-top: 1%;
+
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+#container #sectionCadastrar #blocoConteudo #compartilharObras #precoEurl #preco {
+    width: 49%;
+    height: auto;
+
+}
+
+#container #sectionCadastrar #blocoConteudo #compartilharObras #precoEurl #preco input {
+    padding: 1%;
+
+    width: 98%;
+    height: auto;
+
+    font-size: 20px;
+    font-weight: 700;
+
+    border: 1px solid var(--text-light-gray);
+
+}
+
+#container #sectionCadastrar #blocoConteudo #compartilharObras #precoEurl #url {
+    width: 49%;
+    height: auto;
+
+}
+
+#container #sectionCadastrar #blocoConteudo #compartilharObras #precoEurl #url input {
+    padding: 1%;
+
+    width: 98%;
+    height: auto;
+
+    font-size: 20px;
+    font-weight: 700;
+
+    border: 1px solid var(--text-light-gray);
+
+}

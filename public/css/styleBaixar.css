@@ -1,0 +1,68 @@
+/*SECTION - TEXTO*/
+
+#container #sectionBaixar #texto {
+    width: 100%;
+    height: auto;
+
+    /* background-color: brown; */
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+#container #sectionBaixar #texto #forma {
+    width: 100%;
+    height: auto;
+
+    /* background-color: turquoise; */
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+#container #sectionBaixar #texto #forma h1 {
+    padding: 2%;
+
+    width: 56%;
+    height: auto;
+
+    font-size: 40px;
+    font-weight: 700;
+
+    text-align: center;
+
+    color: var(--text-white);
+
+}
+
+#container #sectionBaixar #texto #forma img {
+    width: 30%;
+    height: auto;
+
+}
+
+#container #sectionBaixar #texto #forma p {
+    padding: 1%;
+
+    width: 58%;
+    height: auto;
+
+    font-size: 25px;
+    font-weight: 700;
+
+    text-align: center;
+
+    color: var(--text-white);
+
+}
+
+#container #sectionBaixar #texto #forma p a {
+    color: var(--text-white);
+
+}
